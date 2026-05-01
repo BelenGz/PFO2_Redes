@@ -9,6 +9,14 @@ Este proyecto consiste en una API REST desarrollada con Flask que permite el reg
 
 3) Interactuar con el cliente: En una nueva terminal, ejecutar cliente.py para registrar usuarios e iniciar sesión.
 
+## Pruebas realizadas con Thunder Client
+
+Para verificar el correcto funcionamiento de la API, se testearon los siguientes endpoints:
+
+*   **POST `/registro`**: Creación de nuevos usuarios con almacenamiento de contraseña hasheada.
+*   **POST `/login`**: Validación de credenciales comparando el texto plano enviado con el hash almacenado.
+*   **GET `/tareas`**: Verificación de disponibilidad del servicio mediante el retorno de una estructura HTML de bienvenida.
+
 # Preguntas conceptuales
 **¿Por qué hashear contraseñas?**
 
@@ -21,3 +29,17 @@ Simplicidad: No requiere configurar un servidor de base de datos externo (como M
 Portabilidad: Toda la base de datos es un único archivo (.db), lo que facilita mover el proyecto entre diferentes computadoras.
 
 Eficiencia: Es ideal para aplicaciones de escritorio o proyectos de mediana escala como este sistema de gestión.
+
+## Capturas de Pruebas Exitosa
+
+### Registro de Usuario
+![Registro](Capturas/registro_exitoso.png)
+
+### Inicio de Sesión
+![Login](Capturas/login_exitoso.png)
+
+### Endpoint de Tareas
+![Tareas](Capturas/endpoint_tareas.png)
+
+### Vista en el navegador de Tareas
+![HTML](Capturas/vista_navegador_tareas.png)

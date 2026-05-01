@@ -18,7 +18,12 @@ def registrar_usuario():
     
     # Se realiza el pedido al servidor
     respuesta = requests.post(f"{URL_BASE}/registro", json=datos)
-    print(respuesta.json().get("mensaje") or respuesta.json().get("error"))
+    
+    # --- MODIFICACIÓN AQUÍ ---
+    if respuesta.status_code == 201:
+        print(f"¡Éxito! {respuesta.json().get('mensaje')}")
+    else:
+        print(f"Error {respuesta.status_code}: {respuesta.json().get('error')}")
 
 def login_usuario():
     usuario = input("Nombre de usuario: ")
