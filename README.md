@@ -9,6 +9,9 @@ Este proyecto consiste en una API REST desarrollada con Flask que permite el reg
 
 3) Interactuar con el cliente: En una nueva terminal, ejecutar `cliente.py` para registrar usuarios e iniciar sesión.
 
+### Flujo de Acceso Protegido
+Se implementó una lógica de acceso restringido en el cliente de consola. Una vez que el servidor verifica las credenciales mediante el endpoint `/login`, el sistema habilita un panel exclusivo para la gestión de tareas.
+
 ## Pruebas realizadas con Thunder Client
 
 Para verificar el correcto funcionamiento de la API, se testearon los siguientes endpoints:
@@ -37,6 +40,9 @@ Eficiencia: Es ideal para aplicaciones de escritorio o proyectos de mediana esca
 
 ### Inicio de Sesión
 ![Login](capturas/login_exitoso.png)
+
+### Vista del Panel de Tareas (Post-Login)
+![Panel de Tareas](capturas/acceso_tareas_post_login.png)
 
 ### Endpoint de Tareas
 ![Tareas](capturas/endpoint_tareas.png)
