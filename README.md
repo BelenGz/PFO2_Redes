@@ -33,13 +33,13 @@ Eficiencia: Es ideal para aplicaciones de escritorio o proyectos de mediana esca
 ## Capturas de Pruebas Exitosa
 
 ### Registro de Usuario
-![Registro](Capturas/registro_exitoso.png)
+![Registro](capturas/registro_exitoso.png)
 
 ### Inicio de Sesión
-![Login](Capturas/login_exitoso.png)
+![Login](capturas/login_exitoso.png)
 
 ### Endpoint de Tareas
-![Tareas](Capturas/endpoint_tareas.png)
+![Tareas](capturas/endpoint_tareas.png)
 
 ### Vista en el navegador de Tareas
 ![HTML](Capturas/vista_navegador_tareas.png)
