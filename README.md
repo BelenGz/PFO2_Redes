@@ -42,4 +42,4 @@ Eficiencia: Es ideal para aplicaciones de escritorio o proyectos de mediana esca
 ![Tareas](capturas/endpoint_tareas.png)
 
 ### Vista en el navegador de Tareas
-![HTML](Capturas/vista_navegador_tareas.png)
+![Tareas](Capturas/vista_navegador_tareas.png)
